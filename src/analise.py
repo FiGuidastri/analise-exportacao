@@ -5,7 +5,7 @@ import os
 
 # %%
 # === Conexão com o banco duckdb ===
-conn = db.connect(r'C:\Users\filipe.guidastri\Documents\Projetos\estudo-exportacao\warehouse.duckdb', read_only=False)
+conn = db.connect(r'../warehouse.duckdb', read_only=False)
 
 # Consultar os dados
 df = conn.execute('''
