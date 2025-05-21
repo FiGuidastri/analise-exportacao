@@ -21,6 +21,14 @@ Este é um projeto interativo de visualização de dados de exportações brasil
 - [Seaborn](https://seaborn.pydata.org/)
 - [Matplotlib](https://matplotlib.org/)
 
+## Estrutura do projeto
+projeto/
+├── data/ 
+├── source/ 
+    ├── dashboard.py
+    ├── README.md
+    ├── LICENSE
+    └── requirements.txt
 
 ## 🚀 Como Rodar
 
